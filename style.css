@@ -74,3 +74,6 @@ body {
 .tic-tac-toe__cell--red {
   background-color: orangered;
 }
+
+class TicTacToe {
+}

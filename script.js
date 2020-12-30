@@ -90,3 +90,11 @@ const reset = () => {
 };
 
 document.querySelector(".reset-button").addEventListener("click", reset);
+
+class TicTacToe {
+  constructor() {
+    this.game = [];
+    this.cells = document.querySelectorAll(".tic-tac-toe__cell");
+    this.currentTurnCharacter = "X";
+  }
+}
