@@ -26,6 +26,9 @@ body {
   .tic-tac-toe {
     width: 100%;
   }
+  body {
+    padding: 0rem;
+  }
 }
 
 .tic-tac-toe__cell {
@@ -73,7 +76,4 @@ body {
 }
 .tic-tac-toe__cell--red {
   background-color: orangered;
-}
-
-class TicTacToe {
 }
